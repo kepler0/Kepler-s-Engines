@@ -8,4 +8,4 @@ BuildCraft Engines dremt up and created by [Kepler Sticka-Jones](http://github.c
 ### Solar Engine
 ### Bedrock Engine
 
-## [License](http://github.com/k2b6s9j/Kepler-s-Engines/LICENSE.md)
+## [License](https://github.com/k2b6s9j/Kepler-s-Engines/blob/master/LICENSE.md)
