@@ -1,0 +1,19 @@
+[
+{
+  "modid": "KeplersEngines",
+  "name": "Kepler's Engines",
+  "description": "BuildCraft Engines dremt up and created by Kepler Sticka-Jones",
+  "version": "0",
+  "mcversion": "1.5.2",
+  "url": "http://www.k2b6s9j.com/",
+  "updateUrl": "http://www.k2b6s9j.com/",
+  "authors": [
+    "k2b6s9j"
+  ],
+  "credits": "Krapht",
+  "logoFile": "/mods/k2b6s9j/Engines/logo.png",
+  "screenshots": [
+  ],
+  "parent":"",
+}
+]
