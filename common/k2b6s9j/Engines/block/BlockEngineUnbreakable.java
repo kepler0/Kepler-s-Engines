@@ -1,5 +1,6 @@
 package k2b6s9j.Engines.block;
 
+import k2b6s9j.Engines.CreativeTab;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
@@ -7,9 +8,12 @@ import net.minecraft.world.World;
 
 public class BlockEngineUnbreakable extends BlockContainer {
 
-	protected BlockEngineUnbreakable(int par1, Material par2Material) {
-		super(par1, par2Material);
-		// TODO Auto-generated constructor stub
+	public BlockEngineUnbreakable(int id) {
+		super(id, Material.piston);
+		setBlockUnbreakable();
+		setResistance(6000000.0F);
+		setCreativeTab(CreativeTab.tabKeplersEngines);
+		setUnlocalizedName("engineBlockUnbreakable");
 	}
 
 	@Override
