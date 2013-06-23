@@ -1,4 +1,4 @@
-Kepler's Engines
+Kepler's Engines [![Travis-CI Build Status](https://travis-ci.org/k2b6s9j/Kepler-s-Engines.png?branch=master)](https://travis-ci.org/k2b6s9j/Kepler-s-Engines)
 ================
 
 BuildCraft Engines dremt up and created by [Kepler Sticka-Jones](http://github.com/k2b6s9j)
