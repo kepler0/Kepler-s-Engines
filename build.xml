@@ -76,6 +76,15 @@
 		</unzip>
 		
 		<echo message="Unpacking finished"/>
+		
+		<!-- Install forge -->
+		<exec dir="${forge.dir}" executable="cmd" osfamily="windows" failonerror="true">
+			<arg line="/c install.cmd"/>
+		</exec>
+
+		<exec dir="${forge.dir}" executable="sh" osfamily="unix" failonerror="true">
+			<arg value="install.sh"/>
+		</exec>
 
 		<chmod file="${mcp.dir}/updatemd5.sh" perm="+x"/>
 		<chmod file="${mcp.dir}/updatemcp.sh" perm="+x"/>
@@ -86,14 +95,6 @@
 		<!-- if your building on OSX these 2 should be executable -->
 		<chmod file="${mcp.dir}/runtime/bin/astyle-osx" perm="+x"/>
 		<chmod file="${mcp.dir}/runtime/bin/jad-osx" perm="+x"/>
-		<!-- Install forge -->
-		<exec dir="${forge.dir}" executable="cmd" osfamily="windows" failonerror="true">
-			<arg line="/c install.cmd"/>
-		</exec>
-
-		<exec dir="${forge.dir}" executable="sh" osfamily="unix" failonerror="true">
-			<arg value="install.sh"/>
-		</exec>
 
 		<echo message="Decompile finished"/>
 		<!-- Copy BC api -->
