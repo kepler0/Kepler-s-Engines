@@ -97,9 +97,9 @@
 		<chmod file="${mcp.dir}/runtime/bin/jad-osx" perm="+x"/>
 
 		<echo message="Decompile finished"/>
-		<!-- Copy BC api -->
+		<!-- Copy BC source -->
 		<copy todir="${commonsrc.dir}">
-			<fileset dir="${buildcraft.dir}/common/buildcraft/api"/>
+			<fileset dir="${buildcraft.dir}/common/buildcraft"/>
 		</copy>
 		
 		<echo message="Copied BuildCraft API files"/>
