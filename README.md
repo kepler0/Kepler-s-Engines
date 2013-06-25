@@ -16,6 +16,6 @@ It's not what it sounds like...
 ### Hydro Engine
 Isn't it just slightly rediculous that water, and water alone, can't turn the gears of an engine yet?
 ### The Unknown Engine
-No one knowsw quite where this gem came from. All that is known is that it is created when someting goes wrong and comes in every varient of engine block.
+No one knows quite where this gem came from. All that is known is that it is created when someting goes wrong and comes in every varient of engine block.
 
 ## [License](https://github.com/k2b6s9j/Kepler-s-Engines/blob/master/LICENSE.md)
