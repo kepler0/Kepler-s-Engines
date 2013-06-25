@@ -66,7 +66,7 @@
 	<target name="setup">
 		<mkdir dir="${download.dir}"/>
 		<get src="http://files.minecraftforge.net/minecraftforge/minecraftforge-src-${mc.version}-${forge.version}.zip" dest="${download.dir}" usetimestamp="True"/>
-		<get src="https://bitbucket.org/shedar/modstats/downloads/modstats.v${modstats.version}.zip" dest="${downloads.dir}" usetimestamp="True"/>
+		<get src="http://bitbucket.org/shedar/modstats/downloads/modstats.v${modstats.version}.zip" dest="${downloads.dir}" usetimestamp="True"/>
 		<git-clone-pull repository="https://github.com/BuildCraft/BuildCraft.git" dest="${buildcraft.dir}" />
 
 		<echo message="Download finished"/>
@@ -173,7 +173,7 @@
 	<target name="package" depends="compile">
 		<echo message="Packing version ${mod.version.full}"/>
 		
-		<jar destfile="dist/KeplersEngines-${mod.version.full}" basedir="${classes.dir}/client"/>
+		<jar destfile="dist/KeplersEngines-${mod.version.full}.jar" basedir="${classes.dir}/client"/>
 		
 		<echo message="Packing finished"/>
 	</target>
