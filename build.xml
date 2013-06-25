@@ -103,6 +103,11 @@
 		<!-- Copy BC source -->
 		<copy todir="${commonsrc.dir}">
 			<fileset dir="${buildcraft.dir}/common"/>
+			<fileset dir="${buildcraft.dir}/buildcraft_resources">
+				<include name="mods"/>
+				<include name="gfx"/>
+				<include name="lang"/>
+			</fileset>
 		</copy>
 		
 		<echo message="Copied BuildCraft Source files"/>
