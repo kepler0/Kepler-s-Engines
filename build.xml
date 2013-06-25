@@ -4,7 +4,7 @@
 	<!-- Properties -->
 	<property name="build.dir"            value="build"/>
 	<property name="src.dir"              value="common"/>
-	<property name="resources.dir" value="resources">
+	<property name="resources.dir" value="resources"/>
 	<property name="test.dir"             value="test"/>
 
 	<property name="download.dir"         value="download"/>
@@ -207,6 +207,14 @@
 		<jar destfile="dist/KeplersEngines-${mod.version.full}.jar" basedir="${classes.dir}/client"/>
 		
 		<echo message="Packing finished"/>
+	</target>
+	
+	<target name="copy-new-code">
+		<!-- Takes the new code from the build envrironment, most likely made with Eclipse and puts it in the main source directory -->
+		<delete dir="${src.dir}"/>
+		<copy todir="${src.dir}/k2b6s9j/Engines">
+			<fileset dir="${commonsrc.dir}/k2b6s9j/Engines"/>
+		</copy>
 	</target>
 
 	<target name="vars">
