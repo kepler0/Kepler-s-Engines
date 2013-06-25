@@ -17,5 +17,7 @@ It's not what it sounds like...
 Isn't it just slightly rediculous that water, and water alone, can't turn the gears of an engine yet?
 ### The Unknown Engine
 No one knows quite where this gem came from. All that is known is that it is created when someting goes wrong and comes in every varient of engine block.
+### Pneumatic Engine
+It's kinda like an energy buffer... Or maybe a battery... Whatever it is, it is defenetly not a ripoff of the Redstone Energy Cell.
 
 ## [License](https://github.com/k2b6s9j/Kepler-s-Engines/blob/master/LICENSE.md)
