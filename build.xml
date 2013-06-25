@@ -99,7 +99,7 @@
 		<echo message="Decompile finished"/>
 		<!-- Copy BC source -->
 		<copy todir="${commonsrc.dir}">
-			<fileset dir="${buildcraft.dir}/common/buildcraft"/>
+			<fileset dir="${buildcraft.dir}/common"/>
 		</copy>
 		
 		<echo message="Copied BuildCraft API files"/>
