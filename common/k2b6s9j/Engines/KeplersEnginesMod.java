@@ -1,5 +1,7 @@
 package k2b6s9j.Engines;
 
+import org.modstats.ModstatInfo;
+
 import k2b6s9j.Engines.block.BlockEngineReinforced;
 import k2b6s9j.Engines.block.BlockEngineUnbreakable;
 import cpw.mods.fml.common.Mod;
@@ -12,6 +14,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@ModstatInfo(prefix="kengines")
 public class KeplersEnginesMod {
 	
 	private static BlockEngineUnbreakable unbreakableEngine = new BlockEngineUnbreakable(Reference.UNBREAKABLE_ENGINE_ID);
